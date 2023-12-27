@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.half {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: calc(100% - 200px);
+  width: 100%;
+  overflow: auto;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; /* 패딩도 넓이, 높이에 포함 */
+  height: 100%;
+  border: 2px solid blue; /* 지워 */
+}
+
+.appbar {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.appbar,
+.navigation {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  align-items: center; /* 내용을 수직 중앙에 위치시키기 */
+  justify-content: center; /* 내용을 수평 중앙에 위치시키기 */
+}

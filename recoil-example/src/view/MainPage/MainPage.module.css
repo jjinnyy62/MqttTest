@@ -1,0 +1,15 @@
+.half {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: calc(100% - 200px);
+  width: 100%;
+  overflow: auto;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; /* 패딩도 넓이, 높이에 포함 */
+  height: 100%;
+  border: 2px solid blue; /* 지워 */
+}

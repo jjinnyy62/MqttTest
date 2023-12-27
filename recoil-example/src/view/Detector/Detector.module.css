@@ -1,0 +1,39 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+  height: 100%;
+  background-color: #202124;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* display: grid; */
+  /* grid-template-rows: 1fr 2fr; */
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* 패딩도 넓이, 높이에 포함 */
+  border: 2px solid green; /* 지워 */
+}
+
+.alignRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #9f9f9f;
+}
+
+.childMain {
+  padding: 10px 0;
+}

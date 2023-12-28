@@ -1,4 +1,5 @@
 import LiveHeatmapChart from '../Heatmap/Heatmap';
+import LiveHeatmapChartData from '../Heatmap/LiveHeatmapChartData';
 import StatusBox from '../StatusBox/StatusBox';
 import Table from '../Table/Table';
 import BtmInfo from './BtmInfo';
@@ -15,7 +16,8 @@ export default function Detector() {
       </div>
       <div className={styles.container} style={{ color: 'white' }}>
         {/* <LiveHeatmapChart/> */}
-        히트맵 넣기
+        {/* 히트맵 넣기 */}
+        <LiveHeatmapChartData />
       </div>
     </div>
   );

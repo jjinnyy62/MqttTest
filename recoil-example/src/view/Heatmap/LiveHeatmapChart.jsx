@@ -39,8 +39,8 @@ export default function LiveHeatmapChart({ rawData }) {
           className={styles.tooltip}
           style={{
             display: 'block',
-            left: `${tooltip.x - 130}px`,
-            top: `${tooltip.y - 140}px`,
+            left: `${tooltip.x}px`,
+            top: `${tooltip.y}px`,
             transform: 'translate(-220%, -110%)',
           }}
         >
